@@ -1,0 +1,117 @@
+.product-display{
+    display: flex;
+    margin: 0 170px;
+    font-size: 14px;
+}
+
+.product-display-left{
+    display: flex;
+    width: fit-content;
+    gap:10px;
+}
+.product-display-img-list{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.product-display-img-list img{
+    height: 110px;
+}
+
+.product-display-main-img img{
+    height: 470px;
+    width: fit-content;
+}
+
+/* rightside */
+
+.product-display-right{
+    margin-right:50px;
+    margin-left:70px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.product-display-right h1{
+    all: unset;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.product-display-right-star{
+    display: flex;
+    margin:10px 0px;
+}
+
+.product-display-right-star div{
+    margin-left:5px;
+}
+
+.product-display-right-prices{
+    display: flex;
+    margin:10px 0px;
+    gap:20px;
+}
+
+.product-display-right-old{
+    font-size: 16px;
+    
+    color:grey;
+    text-decoration: line-through;
+}
+
+.product-display-right-new{
+    font-weight: 600;
+    font-size: 18px;
+    color:red;
+}
+
+.product-display-right-sizes{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin:20px 0px;
+}
+.product-display-right-sizes h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product-display-right-size{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:15px;
+    width: fit-content;
+}
+.product-display-right-size div{
+    width:35px;
+    height: 35px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 5px;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:3px;
+    cursor: pointer;
+}
+
+.product-display-right button{
+    width:fit-content;
+    border:none;
+    background-color: red;
+    color:white;
+    padding:15px 25px;
+    margin:10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.product-display-right-category span ,.product-display-right-tag span{
+    font-weight: 600;
+    margin-right: 10px;
+}
