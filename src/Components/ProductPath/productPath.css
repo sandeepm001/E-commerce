@@ -1,0 +1,16 @@
+.product-path{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding-top:120px;
+    padding-bottom: 40px;
+    color: grey;
+    text-transform: capitalize;
+    gap:8px;
+    margin: 0 170px;
+}
+
+.product-path img{
+    width:10px;
+    height: 16px;;
+}
