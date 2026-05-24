@@ -25,3 +25,39 @@
     
 
 }
+
+
+@media (max-width:1200px) {
+    .relatedProducts{
+        margin: 50px 140px;
+    }
+        
+}
+@media (max-width:1050px) {
+    .relatedProducts{
+        margin: 50px 70px;
+    }
+    .relatedProducts h2{
+        font-size: 18px;
+    }
+        
+}
+@media (max-width:800px) {
+    .relatedProducts{
+        margin: 40px 40px;
+    }
+    .relatedProducts h2{
+        font-size: 16px;
+    }
+        
+}
+@media (max-width:600px) {
+    .relatedProducts{
+        margin: 40px 30px;
+    }
+    .relatedProducts-items{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+        
+}

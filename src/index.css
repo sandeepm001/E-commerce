@@ -19,3 +19,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1200;
+  max-width: min(360px, calc(100vw - 48px));
+  padding: 14px 18px;
+  border-radius: 8px;
+  background: #111;
+  color: #fff;
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.app-toast.error {
+  background: #b42318;
+}

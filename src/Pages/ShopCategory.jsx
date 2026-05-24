@@ -21,7 +21,7 @@ const ShopCategory = (props) => {
       </div>
       <div className="shopCategory-items">
         {all_product.map((item,i)=>{
-          if (item.category===props.category){
+          if (item.category.toLowerCase().trim() === props.category.toLowerCase().trim()){
             return <Item  key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
 
           }else{

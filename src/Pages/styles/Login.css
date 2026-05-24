@@ -59,6 +59,28 @@
     color:black;
 
 }
+
+.otp-copy,
+.login-message {
+    width: 70%;
+    text-align: center;
+    color: #4f4842;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.login-message {
+    color: #a43f21;
+    font-weight: 700;
+}
+
+.resend-btn {
+    border: none;
+    background: transparent;
+    color: rgb(205, 133, 0);
+    cursor: pointer;
+    font-weight: 700;
+}
 .separator{
     display: flex;
     align-items: center;
@@ -115,6 +137,31 @@ em{
     width:fit-content;
     padding:0 50px;
     line-height: 1.5;
+    
+}
+
+@media (max-width:1200px) {
+    .login-container{
+        width:40%;
+    }
+    
+}
+@media (max-width:1050px) {
+    .login-container{
+        width:45%;
+    }
+    
+}
+@media (max-width:800px) {
+    .login-container{
+        width:50%;
+    }
+    
+}
+@media (max-width:600px) {
+    .login-container{
+        width:70%;
+    }
     
 }
 
