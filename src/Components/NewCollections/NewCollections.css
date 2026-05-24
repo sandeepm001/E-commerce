@@ -22,3 +22,30 @@
     margin-top:50px;
     gap:30px;
 }
+
+@media (max-width:1050px) {
+    .new-collection h1 {
+        font-size: 35px;
+    }
+
+}
+@media (max-width:800px) {
+    .new-collection h1 {
+        font-size: 32px;
+    }
+    .new-collection-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+@media (max-width:600px) {
+    .new-collection h1 {
+        font-size: 26px;
+    }
+    .new-collection-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

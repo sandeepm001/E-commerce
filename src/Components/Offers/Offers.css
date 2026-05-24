@@ -50,3 +50,46 @@
 .offers-right img{
     height:60vh;
 }
+
+
+@media (max-width:800px) {
+    .offers-left h2{
+        font-size: 46px;
+    }
+    .offers-left p{
+        font-size: 16px;
+    }
+    .offers-btn{
+        width:150px;
+        font-size: 14px;
+    }
+    .offers-right img{
+        height: 40vh;
+    }
+   
+}
+@media (max-width:600px) {
+    .offers{
+        margin:150px 60px;
+    }
+    .offers-left{
+        margin-left: 30px;
+    }
+    .offers-left h2{
+        line-height:1.1;
+        font-size: 36px;
+    }
+    .offers-left p{
+        font-size: 14px;
+    }
+    .offers-btn{
+        width:100px;
+        padding:10px 15px;
+        font-size: 12px;
+    }
+    .offers-right img{
+        height: 40vh;
+    }
+    
+
+}
