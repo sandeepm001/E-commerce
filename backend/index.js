@@ -12,7 +12,7 @@ const { type } = require("os");
 const app = express();
 const JWT_SECRET = process.env.JWT_SECRET || "secret_token";
 const SHOP_EMAIL = process.env.SHOP_EMAIL || "orders@local-shop.test";
-const MongoURI = process.env.MONGO_URI || "mongodb://localhost:27017/local-shop";
+const MongoURI = process.env.MongoURI || "mongodb://localhost:27017/local-shop";
 const OTP_TTL_MINUTES = 10;
 app.use(express.json());
 app.use(cors());
